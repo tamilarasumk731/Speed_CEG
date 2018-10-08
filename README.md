@@ -19,3 +19,5 @@ A codefundo hackathon 2018.
 ## 3: Disease prevention and hygiene 
   Our application will be equipped with information about all the possible diseases during the disasters along with their prevention methods and healing tips. In addition to that, the place to check-in for the medical help can be identified using the maps.
 
+## 4: Fisherman
+  In order to avoid confusion about the number of people lost after an unexpected storm in the sea. Our application will allow all the fisherman to update their status while they go for fishing, the application will upload their status into the cloud database. There by we will have the collective data of all the fisherman in the city/state. In case of some unexpected events, we can use our application to find the people who have been lost.
