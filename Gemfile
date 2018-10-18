@@ -48,4 +48,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rails_admin', '~> 1.3'
 
-gem 'wdm', '>= 0.1.0'
+# gem 'wdm', '>= 0.1.0'
