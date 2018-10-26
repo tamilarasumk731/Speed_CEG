@@ -80,8 +80,16 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+# production:
+#   <<: *default
+#   database: Speed_CEG_API_production
+#   username: Speed_CEG_API
+#   password: <%= ENV['SPEED_CEG_API_DATABASE_PASSWORD'] %>
+
 production:
   <<: *default
-  database: Speed_CEG_API_production
-  username: Speed_CEG_API
-  password: <%= ENV['SPEED_CEG_API_DATABASE_PASSWORD'] %>
+  host: <%= ENV['DB_HOST'] %>
+  database: <%= ENV['DB_DATABASE'] %>
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  secret_key_base: 60cd4193c9326bd87eda6caa2dd595fc
