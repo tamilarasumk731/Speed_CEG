@@ -92,4 +92,4 @@ production:
   database: <%= ENV['DB_DATABASE'] %>
   username: <%= ENV['DB_USERNAME'] %>
   password: <%= ENV['DB_PASSWORD'] %>
-  secret_key_base: 60cd4193c9326bd87eda6caa2dd595fc
+  # secret_key_base: 60cd4193c9326bd87eda6caa2dd595fc
